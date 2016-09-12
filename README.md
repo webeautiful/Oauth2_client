@@ -7,9 +7,9 @@
 若是在类unix系统，需要修改缓存目录`src/Oauth2_client/cache`权限为777
 
 ###快速获取资源流程:
-1. cd examples/
+1. `cd examples/`
 
-2. php -S localhost:8080
+2. `php -S localhost:8080`
 
 3. 正确配置`get_token_by_client.php`, 然后获取token：`php get_token_by_client.php`
 
