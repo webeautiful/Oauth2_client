@@ -1,0 +1,4 @@
+# examples
+examples/*_test*.php
+
+src/Oauth2_client/cache/*

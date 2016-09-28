@@ -1,6 +1,7 @@
 <?php
 /*
 * 模拟post请求
+* 写作API
 */
 require '../src/Oauth2_client/Autoloader.php';
 Oauth2_client\Autoloader::register();
