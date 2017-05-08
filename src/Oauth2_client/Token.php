@@ -73,7 +73,7 @@ class Token
             $token = $this->curl->response;
             if(is_object($token) && isset($token->access_token)){
                 $access_token = $token->access_token;
-                $this->cache->save($key, $access_token, $token->expires_in-$this->timeoutEarly);
+                $this->cache->save($key, $access_token, $token->expires_in, $this->timeoutEarly);
             }else{
                 die('配置参数错误或接口返回值错误');
             }
