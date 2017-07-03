@@ -2,3 +2,4 @@
 examples/*_test*.php
 
 src/Oauth2_client/cache/*
+src/python/env
