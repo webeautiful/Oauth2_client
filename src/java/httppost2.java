@@ -39,7 +39,7 @@ public class httppost2 {
         try{
     		CloseableHttpClient httpclient = HttpClients.createDefault();
             httpPost = new HttpPost(url);
-            //ÉèÖÃ²ÎÊı
+            //è®¾ç½®å‚æ•°
             List<NameValuePair> list = new ArrayList<NameValuePair>();
             Iterator iterator = map.entrySet().iterator();
             while(iterator.hasNext()){
